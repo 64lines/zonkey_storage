@@ -4,6 +4,12 @@ Zonkey Storage is a simple way to store any information to any JSON file, these 
 
 ## Usage
 
+First of all import the `store` object from the library.
+
+```javascript
+const storage = require('zonkey-storage');
+```
+
 To store a list of items you can use the following code, the files will be stored on a JSON file called "clothes.json" on the "./" directory.
 
 ```javascript
